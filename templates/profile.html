@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock %}
+{% block content %}
+Trophies: {{ stats['trophies'] }}
+<br>
+Highest Trophies: {{ stats['highest_trophies'] }}
+<br>
+Power Play Points: {{ stats['power_play_points'] }}
+<br>
+Highest Power Play Points: {{ stats['highest_power_play_points'] }}
+<br>
+Experience Level: {{ stats['exp_level'] }}
+<br>
+Experience Points: {{ stats['exp_points'] }}
+<br>
+3 vs. 3 Victories: {{ stats['3vs3_victories'] }}
+<br>
+Solo Victories: {{ stats['solo_victories'] }}
+<br>
+Duo Victories: {{ stats['duo_victories'] }}
+<br>
+Best Robo Rumble Time: {{ stats['best_robo_rumble_time'] }}
+<br>
+Best Time as Big Brawler: {{ stats['best_time_as_big_brawler'] }}
+{% endblock %}
